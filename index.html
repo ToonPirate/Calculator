@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Resolves the favicon 404 error by adding a blank icon -->
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Calculator</h1>
+        <h2>by Christian Eriksen</h2>
+        <section class="calc-main">
+            <button id="square-root" value="√x" class="operand">√x</button>
+            <button id="squared" value="x^2" class="operand">x^2</button>
+            <button id="clear" value="c">Clear</button>
+            <button id="+" value="+" class="operand">+</button>
+            <button id="7" value="7" class="num">7</button>
+            <button id="8" value="8" class="num">8</button>
+            <button id="9" value="9" class="num">9</button>
+            <button id="-"  value="-" class="operand">-</button>
+            <button id="4"  value="4" class="num">4</button>
+            <button id="5" value="5" class="num">5</button>
+            <button id="6" value="6" class="num">6</button>
+            <button id="*"  value="*" class="operand">*</button>
+            <button id="1"  value="1" class="num">1</button>
+            <button id="2"  value="2" class="num">2</button>
+            <button id="3"  value="3" class="num">3</button>
+            <button id="/" value="/" class="operand">/</button>
+        </section>
+        <section>
+            <label>Previous operation</label>
+            <div id="prev-operation">
+            </div>
+            <br>
+            <label>Result</label>
+            <div id="result"></div>
+            <br>
+            <label>History</label>
+            <ol class="history"></ol>
+        </section>
+    </main>
+</body>
+</html>
